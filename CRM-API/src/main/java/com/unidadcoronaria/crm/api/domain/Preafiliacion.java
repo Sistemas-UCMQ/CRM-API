@@ -35,6 +35,10 @@ public class Preafiliacion {
 	@ManyToOne
 	@JoinColumn(name = "IDCALLE")
 	private Calle calle;
+	
+	@ManyToOne
+	@JoinColumn(name = "IDVENDEDOR")
+	private Vendedor vendedor;
 
 	public Integer getIdPreafiliacion() {
 		return idPreafiliacion;
@@ -74,6 +78,14 @@ public class Preafiliacion {
 
 	public void setCalle(Calle calle) {
 		this.calle = calle;
+	}
+
+	public Vendedor getVendedor() {
+		return vendedor;
+	}
+
+	public void setVendedor(Vendedor vendedor) {
+		this.vendedor = vendedor;
 	}
 
 	
