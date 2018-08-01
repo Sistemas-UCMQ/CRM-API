@@ -38,6 +38,7 @@ dependencies {
     compile group: 'org.firebirdsql.jdbc', name: 'jaybird-jdk18', version: '2.2.11'
     compile group: 'org.json', name: 'json', version: '20090211'
     compile group: 'org.assertj', name: 'assertj-core', version: '3.7.0'
+    compile group: 'com.google.collections', name: 'google-collections', version: '1.0-rc2'
     testCompile('com.h2database:h2')
     testCompile('org.springframework.boot:spring-boot-starter-test')   
 }
