@@ -1149,3 +1149,285 @@ Caused by: org.hibernate.QueryException: could not resolve property: idLocalidad
 2018-08-01 12:53:31.588  INFO 37580 --- [http-nio-60683-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
 2018-08-01 12:53:31.727  WARN 37580 --- [http-nio-60683-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
 2018-08-01 12:53:31.727  WARN 37580 --- [http-nio-60683-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : WARNING: No connection characterset specified (property lc_ctype, encoding, charSet or localEncoding), defaulting to characterset NONE
+2018-08-01 15:30:53.415  INFO 37580 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-01 15:30:53.420  INFO 37580 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Wed Aug 01 12:52:01 ART 2018]; root of context hierarchy
+2018-08-01 15:30:53.446  INFO 37580 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-01 15:30:53.448  INFO 37580 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-01 15:30:59.936  INFO 131808 --- [main] c.u.crm.api.CrmApplication               : Starting CrmApplication on Sistemas02 with PID 131808 (C:\Git\CRM-API\CRM-API\bin started by lcastano in C:\Git\CRM-API\CRM-API)
+2018-08-01 15:30:59.939  INFO 131808 --- [main] c.u.crm.api.CrmApplication               : No active profile set, falling back to default profiles: default
+2018-08-01 15:31:00.233  INFO 131808 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Wed Aug 01 15:31:00 ART 2018]; root of context hierarchy
+2018-08-01 15:31:01.688  INFO 131808 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 60683 (http)
+2018-08-01 15:31:01.697  INFO 131808 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-08-01 15:31:01.699  INFO 131808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-08-01 15:31:01.841  INFO 131808 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crmapi]        : Initializing Spring embedded WebApplicationContext
+2018-08-01 15:31:01.841  INFO 131808 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1611 ms
+2018-08-01 15:31:01.981  INFO 131808 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-01 15:31:01.984  INFO 131808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-01 15:31:01.984  INFO 131808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-01 15:31:01.985  INFO 131808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-01 15:31:01.985  INFO 131808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-01 15:31:02.437  INFO 131808 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-01 15:31:02.453  INFO 131808 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-01 15:31:02.537  INFO 131808 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-01 15:31:02.539  INFO 131808 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-01 15:31:02.541  INFO 131808 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-08-01 15:31:02.681  INFO 131808 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-01 15:31:02.837  INFO 131808 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.FirebirdDialect
+2018-08-01 15:31:03.093  WARN 131808 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-01 15:31:03.095  WARN 131808 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-01 15:31:03.095  WARN 131808 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-01 15:31:03.096  WARN 131808 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-01 15:31:03.096  WARN 131808 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-01 15:31:03.389  INFO 131808 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-01 15:31:03.629  INFO 131808 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-01 15:31:04.133  INFO 131808 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Wed Aug 01 15:31:00 ART 2018]; root of context hierarchy
+2018-08-01 15:31:04.213  INFO 131808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/calle/{idLocalidad}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.CalleController.getCallesByLocalidad(java.lang.Integer)
+2018-08-01 15:31:04.214  INFO 131808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/empresa],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.EmpresaController.getEmpresas()
+2018-08-01 15:31:04.215  INFO 131808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/modoCobranza],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.ModoCobranzaController.getModosCobranza()
+2018-08-01 15:31:04.215  INFO 131808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/preafiliacion],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.PreafiliacionController.getPreafiliaciones()
+2018-08-01 15:31:04.216  INFO 131808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/localidad],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.TerritorioController.getLocalidadesOperativas()
+2018-08-01 15:31:04.216  INFO 131808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/vendedor/{idVendedor}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.VendedorController.getVendedor(java.lang.Integer)
+2018-08-01 15:31:04.218  INFO 131808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-01 15:31:04.219  INFO 131808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-01 15:31:04.253  INFO 131808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-01 15:31:04.253  INFO 131808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-01 15:31:04.293  INFO 131808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-01 15:31:04.350  WARN 131808 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-08-01 15:31:04.829  INFO 131808 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-01 15:31:04.884  INFO 131808 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 60683 (http)
+2018-08-01 15:31:04.888  INFO 131808 --- [main] c.u.crm.api.CrmApplication               : Started CrmApplication in 5.22 seconds (JVM running for 5.911)
+2018-08-01 15:31:18.132  INFO 131808 --- [http-nio-60683-exec-2] o.a.c.c.C.[.[localhost].[/crmapi]        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-01 15:31:18.132  INFO 131808 --- [http-nio-60683-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-01 15:31:18.156  INFO 131808 --- [http-nio-60683-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-08-02 10:21:11.535  INFO 131808 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-02 10:21:11.552  INFO 131808 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Wed Aug 01 15:31:00 ART 2018]; root of context hierarchy
+2018-08-02 10:21:11.569  INFO 131808 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-02 10:21:11.569  INFO 131808 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 15:50:39.931  INFO 10236 --- [main] c.u.crm.api.CrmApplication               : Starting CrmApplication on Sistemas02 with PID 10236 (C:\Git\CRM-API\CRM-API\bin started by lcastano in C:\Git\CRM-API\CRM-API)
+2018-08-02 15:50:39.934  INFO 10236 --- [main] c.u.crm.api.CrmApplication               : No active profile set, falling back to default profiles: default
+2018-08-02 15:50:40.159  INFO 10236 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Thu Aug 02 15:50:40 ART 2018]; root of context hierarchy
+2018-08-02 15:50:41.574  INFO 10236 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 60683 (http)
+2018-08-02 15:50:41.585  INFO 10236 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-08-02 15:50:41.586  INFO 10236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-08-02 15:50:41.721  INFO 10236 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crmapi]        : Initializing Spring embedded WebApplicationContext
+2018-08-02 15:50:41.722  INFO 10236 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1565 ms
+2018-08-02 15:50:41.850  INFO 10236 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-02 15:50:41.853  INFO 10236 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 15:50:41.854  INFO 10236 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-02 15:50:41.854  INFO 10236 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-02 15:50:41.854  INFO 10236 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-02 15:50:42.261  INFO 10236 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-02 15:50:42.279  INFO 10236 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-02 15:50:42.379  INFO 10236 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-02 15:50:42.381  INFO 10236 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-02 15:50:42.382  INFO 10236 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-08-02 15:50:42.529  INFO 10236 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-02 15:50:42.690  INFO 10236 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.FirebirdDialect
+2018-08-02 15:50:42.948  WARN 10236 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 15:50:42.950  WARN 10236 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 15:50:42.950  WARN 10236 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 15:50:42.950  WARN 10236 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 15:50:42.950  WARN 10236 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 15:50:43.265  INFO 10236 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 15:50:43.527  INFO 10236 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-02 15:50:44.166  INFO 10236 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Thu Aug 02 15:50:40 ART 2018]; root of context hierarchy
+2018-08-02 15:50:44.252  INFO 10236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/calle/{idLocalidad}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.CalleController.getCallesByLocalidad(java.lang.Integer)
+2018-08-02 15:50:44.253  INFO 10236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/empresa],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.EmpresaController.getEmpresas()
+2018-08-02 15:50:44.254  INFO 10236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/modoCobranza],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.ModoCobranzaController.getModosCobranza()
+2018-08-02 15:50:44.257  INFO 10236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/preafiliacion],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.PreafiliacionController.getPreafiliaciones()
+2018-08-02 15:50:44.258  INFO 10236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/localidad],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.TerritorioController.getLocalidadesOperativas()
+2018-08-02 15:50:44.260  INFO 10236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/vendedor/{idVendedor}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.VendedorController.getVendedor(java.lang.Integer)
+2018-08-02 15:50:44.262  INFO 10236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-02 15:50:44.263  INFO 10236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-02 15:50:44.309  INFO 10236 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 15:50:44.310  INFO 10236 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 15:50:44.367  INFO 10236 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 15:50:44.400  WARN 10236 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-08-02 15:50:44.916  INFO 10236 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-02 15:50:44.974  INFO 10236 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 60683 (http)
+2018-08-02 15:50:44.977  INFO 10236 --- [main] c.u.crm.api.CrmApplication               : Started CrmApplication in 5.326 seconds (JVM running for 6.01)
+2018-08-02 15:50:47.626  INFO 10236 --- [http-nio-60683-exec-1] o.a.c.c.C.[.[localhost].[/crmapi]        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-02 15:50:47.626  INFO 10236 --- [http-nio-60683-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-02 15:50:47.645  INFO 10236 --- [http-nio-60683-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-08-02 15:59:21.328  INFO 10236 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-02 15:59:21.329  INFO 10236 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Thu Aug 02 15:50:40 ART 2018]; root of context hierarchy
+2018-08-02 15:59:21.331  INFO 10236 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-02 15:59:21.333  INFO 10236 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 15:59:27.298  INFO 9212 --- [main] c.u.crm.api.CrmApplication               : Starting CrmApplication on Sistemas02 with PID 9212 (C:\Git\CRM-API\CRM-API\bin started by lcastano in C:\Git\CRM-API\CRM-API)
+2018-08-02 15:59:27.301  INFO 9212 --- [main] c.u.crm.api.CrmApplication               : No active profile set, falling back to default profiles: default
+2018-08-02 15:59:27.550  INFO 9212 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Thu Aug 02 15:59:27 ART 2018]; root of context hierarchy
+2018-08-02 15:59:28.945  INFO 9212 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 60683 (http)
+2018-08-02 15:59:28.955  INFO 9212 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-08-02 15:59:28.956  INFO 9212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-08-02 15:59:29.080  INFO 9212 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crmapi]        : Initializing Spring embedded WebApplicationContext
+2018-08-02 15:59:29.080  INFO 9212 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1532 ms
+2018-08-02 15:59:29.207  INFO 9212 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-02 15:59:29.210  INFO 9212 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 15:59:29.210  INFO 9212 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-02 15:59:29.210  INFO 9212 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-02 15:59:29.210  INFO 9212 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-02 15:59:29.626  INFO 9212 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-02 15:59:29.641  INFO 9212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-02 15:59:29.713  INFO 9212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-02 15:59:29.715  INFO 9212 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-02 15:59:29.716  INFO 9212 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-08-02 15:59:29.828  INFO 9212 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-02 15:59:29.938  INFO 9212 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.FirebirdDialect
+2018-08-02 15:59:30.168  WARN 9212 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 15:59:30.170  WARN 9212 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 15:59:30.170  WARN 9212 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 15:59:30.170  WARN 9212 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 15:59:30.170  WARN 9212 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 15:59:30.426  INFO 9212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 15:59:30.639  INFO 9212 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-02 15:59:31.094  INFO 9212 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Thu Aug 02 15:59:27 ART 2018]; root of context hierarchy
+2018-08-02 15:59:31.163  INFO 9212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/calle/{idLocalidad}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.CalleController.getCallesByLocalidad(java.lang.Integer)
+2018-08-02 15:59:31.164  INFO 9212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/empresa],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.EmpresaController.getEmpresas()
+2018-08-02 15:59:31.165  INFO 9212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/modoCobranza],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.ModoCobranzaController.getModosCobranza()
+2018-08-02 15:59:31.165  INFO 9212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/preafiliacion],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.PreafiliacionController.getPreafiliaciones()
+2018-08-02 15:59:31.166  INFO 9212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/localidad],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.TerritorioController.getLocalidadesOperativas()
+2018-08-02 15:59:31.166  INFO 9212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/vendedor/{idVendedor}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.VendedorController.getVendedor(java.lang.Integer)
+2018-08-02 15:59:31.168  INFO 9212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-02 15:59:31.169  INFO 9212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-02 15:59:31.195  INFO 9212 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 15:59:31.195  INFO 9212 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 15:59:31.235  INFO 9212 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 15:59:31.266  WARN 9212 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-08-02 15:59:31.679  INFO 9212 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-02 15:59:31.734  INFO 9212 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 60683 (http)
+2018-08-02 15:59:31.738  INFO 9212 --- [main] c.u.crm.api.CrmApplication               : Started CrmApplication in 4.694 seconds (JVM running for 5.312)
+2018-08-02 15:59:37.077  INFO 9212 --- [http-nio-60683-exec-1] o.a.c.c.C.[.[localhost].[/crmapi]        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-02 15:59:37.077  INFO 9212 --- [http-nio-60683-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-02 15:59:37.095  INFO 9212 --- [http-nio-60683-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-08-02 16:00:33.678  INFO 13264 --- [main] c.u.crm.api.CrmApplication               : Starting CrmApplication on Sistemas02 with PID 13264 (C:\Git\CRM-API\CRM-API\bin started by lcastano in C:\Git\CRM-API\CRM-API)
+2018-08-02 16:00:33.680  INFO 13264 --- [main] c.u.crm.api.CrmApplication               : No active profile set, falling back to default profiles: default
+2018-08-02 16:00:33.872  INFO 13264 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Thu Aug 02 16:00:33 ART 2018]; root of context hierarchy
+2018-08-02 16:00:35.219  INFO 13264 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 60683 (http)
+2018-08-02 16:00:35.228  INFO 13264 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-08-02 16:00:35.230  INFO 13264 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-08-02 16:00:35.354  INFO 13264 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crmapi]        : Initializing Spring embedded WebApplicationContext
+2018-08-02 16:00:35.354  INFO 13264 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1484 ms
+2018-08-02 16:00:35.485  INFO 13264 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-02 16:00:35.489  INFO 13264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 16:00:35.489  INFO 13264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-02 16:00:35.490  INFO 13264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-02 16:00:35.490  INFO 13264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-02 16:00:35.936  INFO 13264 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-02 16:00:35.953  INFO 13264 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-02 16:00:36.025  INFO 13264 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-02 16:00:36.027  INFO 13264 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-02 16:00:36.029  INFO 13264 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-08-02 16:00:36.150  INFO 13264 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-02 16:00:36.255  INFO 13264 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.FirebirdDialect
+2018-08-02 16:00:36.527  WARN 13264 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 16:00:36.530  WARN 13264 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 16:00:36.530  WARN 13264 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 16:00:36.530  WARN 13264 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 16:00:36.530  WARN 13264 --- [main] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2018-08-02 16:00:36.784  INFO 13264 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 16:00:36.996  INFO 13264 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-02 16:00:37.448  INFO 13264 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Thu Aug 02 16:00:33 ART 2018]; root of context hierarchy
+2018-08-02 16:00:37.512  INFO 13264 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/calle/{idLocalidad}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.CalleController.getCallesByLocalidad(java.lang.Integer)
+2018-08-02 16:00:37.513  INFO 13264 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/empresa],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.EmpresaController.getEmpresas()
+2018-08-02 16:00:37.514  INFO 13264 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/modoCobranza],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.ModoCobranzaController.getModosCobranza()
+2018-08-02 16:00:37.514  INFO 13264 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/preafiliacion],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.PreafiliacionController.getPreafiliaciones()
+2018-08-02 16:00:37.515  INFO 13264 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/localidad],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.TerritorioController.getLocalidadesOperativas()
+2018-08-02 16:00:37.515  INFO 13264 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/vendedor/{idVendedor}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.unidadcoronaria.crm.api.controller.VendedorController.getVendedor(java.lang.Integer)
+2018-08-02 16:00:37.518  INFO 13264 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-02 16:00:37.519  INFO 13264 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-02 16:00:37.547  INFO 13264 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 16:00:37.547  INFO 13264 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 16:00:37.584  INFO 13264 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 16:00:37.616  WARN 13264 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-08-02 16:00:38.031  INFO 13264 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-02 16:00:38.070 ERROR 13264 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-60683"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_144]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at com.unidadcoronaria.crm.api.CrmApplication.main(CrmApplication.java:14) [bin/:na]
+
+2018-08-02 16:00:38.071 ERROR 13264 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-60683]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-60683]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at com.unidadcoronaria.crm.api.CrmApplication.main(CrmApplication.java:14) [bin/:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_144]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	... 14 common frames omitted
+
+2018-08-02 16:00:38.077  INFO 13264 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2018-08-02 16:00:38.089  INFO 13264 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-08-02 16:00:38.095 ERROR 13264 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 60683 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 60683, or configure this application to listen on another port.
+
+2018-08-02 16:00:38.100  INFO 13264 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48aaecc3: startup date [Thu Aug 02 16:00:33 ART 2018]; root of context hierarchy
+2018-08-02 16:00:38.101  INFO 13264 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-02 16:00:38.104  INFO 13264 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 16:01:03.157  WARN 9212 --- [http-nio-60683-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: null
+2018-08-02 16:01:03.158  WARN 9212 --- [http-nio-60683-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : WARNING: No connection characterset specified (property lc_ctype, encoding, charSet or localEncoding), defaulting to characterset NONE
