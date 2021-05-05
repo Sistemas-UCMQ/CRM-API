@@ -21,7 +21,7 @@ public class Calle {
 	private Integer idCalle;
 	
 	@Column(name = "NOMBRE")
-	private String name;
+	private String nombre;
 	
 	@ManyToOne
 	@JoinColumn(name = "IDLOCALIDAD")
@@ -35,12 +35,12 @@ public class Calle {
 		this.idCalle = idCalle;
 	}
 
-	public String getName() {
-		return name;
+	public String getNombre() {
+		return nombre;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 	public Territorio getLocalidad() {
@@ -50,7 +50,5 @@ public class Calle {
 	public void setLocalidad(Territorio localidad) {
 		this.localidad = localidad;
 	}
-
-
 
 }
